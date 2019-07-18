@@ -4,6 +4,31 @@ body {
 
 h1, h2, h3, h4 {
   font-family: $headers-font;
+  font-weight: bold;
+  letter-spacing: .2rem;
+}
+
+ul {
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  // justify-content: flex-end;
+  justify-content: space-between;
+  width: 610px;
+  padding: 0;
+  // ul {
+  //   padding: 0;
+  // }
+  li {
+    list-style: none;
+    font-family: $headers-font;
+    font-weight: bold;
+    display: inline;
+    letter-spacing: .1rem;
+  }
 }
 
 #home {
@@ -17,34 +42,26 @@ h1, h2, h3, h4 {
   flex-direction: column;
   margin: 0px 150px 0 150px;
   font-family: $body-font;
-  ul {
-    padding: 0;
-  }
-  li {
-    list-style: none;
-    margin-top: 0.5em;
-    font-family: $headers-font;
-  }
   h1 {
-    font-size: 2.75em;
+    font-size: 2.5em;
   }
 }
 
-.image-logo {
-  // background-image: asset-url('logo.png');
-  background-size: cover;
-  background-position: center;
-  height: 450px;
+.image {
+  img {
+    border: 5px solid;
+  }
+  p {
+    font-style: italic;
+    font-size: 25px;
+  }
 }
 
 #footer {
+  li {
   font-size: 0.75em;
   font-weight: lighter;
-  color: rgba(0,0,0,0.4);
-  margin-top: 1em;
-  li {
-    list-style: none;
-    margin-top: 0;
-    font-family: $body-font;
+  list-style: none;
+  font-family: $body-font;
   }
 }
