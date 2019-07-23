@@ -62,31 +62,18 @@ ul {
 
 // responsivness
 
-@media (max-width: 340px) {
+@media (max-width: 700px) {
   #home {
     margin: 0;
-    h1 {
-    font-size: 1.5em;
-    }
   }
   .list {
-    width: 260px;
+    width: 410px;
     li {
-      font-size: 10px;
-      letter-spacing: 0;
+      font-size: 12px;
     }
   }
-  .image {
-    p {
-      font-style: italic;
-      font-size: 16px;
-    }
-    img {
-      width: 250px;
-    }
-  }
-  #footer li {
-    font-size: 0.5em;
+  img {
+    width: 400px;
   }
 }
 
@@ -118,17 +105,30 @@ ul {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 340px) {
   #home {
     margin: 0;
-  }
-  .list {
-    width: 410px;
-    li {
-      font-size: 12px;
+    h1 {
+    font-size: 1.5em;
     }
   }
-  img {
-    width: 400px;
+  .list {
+    width: 260px;
+    li {
+      font-size: 10px;
+      letter-spacing: 0;
+    }
+  }
+  .image {
+    p {
+      font-style: italic;
+      font-size: 16px;
+    }
+    img {
+      width: 250px;
+    }
+  }
+  #footer li {
+    font-size: 0.5em;
   }
 }
